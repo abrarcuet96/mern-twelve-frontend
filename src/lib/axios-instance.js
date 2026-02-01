@@ -1,4 +1,4 @@
 import axios from "axios";
 const axios_instance = axios.create({
-  baseURL: "https://mern-twelve-portfolio-backend.vercel.app/api/v1",
+  baseURL: import.meta.env.VITE_APP_BASE_URL,
 });
